@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background: rgb(31, 121, 112);
+    line-height: 20px;
+    text-align: center;
+}
+
+.navbar h2{
+    font-size: 40px;
+    color: white;
+    margin: 20px 20px;
+}
+
+.navbar ul{
+    display: inline-flex;
+    margin-top: 15px;
+    list-style: none;
+}
+
+.navbar ul li{
+    width: 180px;
+    margin-top: 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: orangered;
+    font-style: italic;
+    
+}
+
+.active, .navbar ul li:hover{
+    border-radius: 18px;
+    background: white;
+    margin-bottom: 68px;
+    margin-left: 30px;
+}
+
+.submenu{
+    display: none;
+}
+
+.navbar ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    background: orange;
+    border-radius: 8px;
+}
+
+.navbar ul li:hover .submenu ul{
+    display: block;
+    height: 150px;
+
+}
+
+.navbar ul li:hover .submenu ul li{
+   color: brown;
+   color: white;
+   background: none;
+   margin-bottom: 15px;
+   border-bottom: 2px solid;
+}
+
+.navbar ul li:hover .submenu ul li a:hover{
+    color: thistle;
+    border-radius: 0px;
+    background: none;
+    padding: 0px 0px;
+}
+
+.navbar ul li:hover .submenu ul li a:last-child{
+    border-bottom: none;
+}
