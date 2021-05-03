@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aqua;
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(47, 42, 95);
+}
+
+li{
+    list-style: none;
+
+}
+
+li{
+    color: white;
+
+}
